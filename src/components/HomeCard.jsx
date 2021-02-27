@@ -2,7 +2,7 @@ import React from "react";
 
 class HomeCard extends React.Component {
   render() {
-    return <h1>HomeCard</h1>;
+    return <h1>HomeCard placeholder</h1>;
   }
 }
 

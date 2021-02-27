@@ -2,7 +2,7 @@ import React from "react";
 
 class AboutMeCard extends React.Component {
   render() {
-    return <h1>AboutMeCard</h1>;
+    return <h1>AboutMeCard placeholder</h1>;
   }
 }
 
