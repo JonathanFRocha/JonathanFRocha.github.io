@@ -4,6 +4,11 @@ header {
   background-repeat: repeat;
 }
 
+.head_lnk {
+  color: white;
+  text-decoration: none;
+}
+
 .header , .head_logo_contact , .head_text_contact {
   display: flex;
   flex-direction: row;

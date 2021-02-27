@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import twitterLogo from "../images/blue.svg";
 import gmailLogo from "../images/gmail.svg";
 import linkedinLogo from "../images/linkedin.png";
 import githubLogo from "../images/github.png";
-import "./NavHeader.css";
+import "../style/NavHeader.css";
 
 class Box extends React.Component {
   render() {
@@ -11,15 +13,28 @@ class Box extends React.Component {
       <header className="header">
         <nav>
           <ul className="head_text_contact">
-            <li className="head_btn">Projects</li>
-            <li className="head_btn">About me</li>
-            <li className="head_btn">Resume</li>
+            <li className="head_btn">
+              <Link className="head_lnk" to="/projects">
+                Projects
+              </Link>
+            </li>
+            <li className="head_btn">
+              <Link className="head_lnk" to="/aboutme">
+                About me
+              </Link>
+            </li>
+
+            <li className="head_btn">
+              <Link className="head_lnk" to="#">
+                Resume
+              </Link>
+            </li>
           </ul>
         </nav>
         <nav>
           <ul className="head_logo_contact">
             <li>
-              <a target="_blank" href="https://twitter.com/">
+              <a target="_blank" href="https://twitter.com/Jonathanferocha">
                 <img src={twitterLogo} alt="Twitter Logo, link to my perfil" />
               </a>
             </li>
