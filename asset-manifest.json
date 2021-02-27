@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b750624.chunk.css",
+    "main.js": "/static/js/main.7264687a.chunk.js",
+    "main.js.map": "/static/js/main.7264687a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/js/2.094a1e94.chunk.js": "/static/js/2.094a1e94.chunk.js",
+    "static/js/2.094a1e94.chunk.js.map": "/static/js/2.094a1e94.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1b750624.chunk.css.map": "/static/css/main.1b750624.chunk.css.map",
+    "static/js/2.094a1e94.chunk.js.LICENSE.txt": "/static/js/2.094a1e94.chunk.js.LICENSE.txt",
+    "static/media/blue.bf36f3f6.svg": "/static/media/blue.bf36f3f6.svg",
+    "static/media/NavHeader.css": "/static/media/blues.31be9c01.png",
+    "static/media/gmail.c2f45e8f.svg": "/static/media/gmail.c2f45e8f.svg",
+    "static/media/App.css": "/static/media/irc.70a59c9e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0605945.js",
+    "static/js/2.094a1e94.chunk.js",
+    "static/css/main.1b750624.chunk.css",
+    "static/js/main.7264687a.chunk.js"
+  ]
+}
