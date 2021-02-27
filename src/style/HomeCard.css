@@ -1,0 +1,52 @@
+@keyframes cssAnimOpacity {
+
+  20% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.main_title {
+  font-size: 2em;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main_title span {
+  padding: 5px;
+}
+
+.firstSpan {
+  animation: cssAnimOpacity 1s 0.3s forwards;
+  opacity: 0;
+}
+
+.secondSpan {
+  animation: cssAnimOpacity 1s 0.7s forwards;
+  opacity: 0;
+}
+
+.thirdSpan {
+  animation: cssAnimOpacity 1s 1.9s forwards;
+  opacity: 0;
+}
+
+.main_title div {
+  margin-bottom: 30px;
+}
+
+.name {
+  color: rgb(255, 116, 0);
+}

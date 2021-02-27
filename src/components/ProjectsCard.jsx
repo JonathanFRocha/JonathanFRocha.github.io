@@ -1,9 +1,12 @@
 import React from "react";
+import Box from "./Box";
 
-class ProjectsCard extends React.Component {
-  render() {
-    return <h1>ProjectsCard placeholder</h1>;
-  }
-}
+const ProjectsCard = () => {
+  return (
+    <Box>
+      <h1>ProjectsCard placeholder</h1>
+    </Box>
+  );
+};
 
 export default ProjectsCard;
