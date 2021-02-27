@@ -1,0 +1,15 @@
+header {
+  background-color:#152238;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.twitter{
+  width: 40px;
+  z-index: 5;
+}
