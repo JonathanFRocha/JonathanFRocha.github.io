@@ -1,8 +1,14 @@
 import React from "react";
+import Box from "./Box";
 
 class HomeCard extends React.Component {
   render() {
-    return <h1>HomeCard placeholder</h1>;
+    return (
+      <Box>
+        <h3>Hello, i'm Jonathan Rocha</h3>
+        <p>A web developer student at Trybe.</p>
+      </Box>
+    );
   }
 }
 

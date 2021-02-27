@@ -40,3 +40,10 @@ table {
   border-spacing: 0;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+

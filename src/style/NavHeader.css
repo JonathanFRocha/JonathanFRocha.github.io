@@ -17,7 +17,7 @@ header {
 
 .header {
   justify-content: space-between;
-
+  height: 6vh;
 }
 
 .header nav {
