@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/Box.css";
-import Rotate from "react-reveal/Rotate";
 
 class Box extends React.Component {
   constructor(props) {

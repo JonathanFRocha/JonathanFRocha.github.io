@@ -5,6 +5,7 @@ import twitterLogo from "../images/blue.svg";
 import gmailLogo from "../images/gmail.svg";
 import linkedinLogo from "../images/linkedin.png";
 import githubLogo from "../images/github.png";
+import resumePt from "../resume/resumePt.pdf";
 import "../style/NavHeader.css";
 
 class Box extends React.Component {
@@ -25,21 +26,21 @@ class Box extends React.Component {
             </li>
 
             <li className="head_btn">
-              <Link className="head_lnk" to="#">
+              <a className="head_lnk" href={resumePt}>
                 Resume
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
         <nav>
           <ul className="head_logo_contact">
             <li>
-              <a target="_blank" href="https://twitter.com/Jonathanferocha">
+              <a href="https://twitter.com/Jonathanferocha">
                 <img src={twitterLogo} alt="Twitter Logo, link to my perfil" />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.linkedin.com/in/jonathan-ferreira-rocha/">
+              <a href="https://www.linkedin.com/in/jonathan-ferreira-rocha/">
                 <img
                   className="linkedin_logo"
                   src={linkedinLogo}
@@ -48,7 +49,7 @@ class Box extends React.Component {
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/JonathanFRocha/">
+              <a href="https://github.com/JonathanFRocha/">
                 <img id="github_logo" src={githubLogo} alt="Github logo, link to my perfil" />
               </a>
             </li>
