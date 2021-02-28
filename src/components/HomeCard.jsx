@@ -17,7 +17,7 @@ class HomeCard extends React.Component {
               ,
             </span>
           </div>
-          <span className="thirdSpan">I'm Full Stack Web Developer Student</span>
+          <span className="thirdSpan">I'm a Software Development Student</span>
         </h1>
       </Box>
     );
