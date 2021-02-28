@@ -1,7 +1,6 @@
 import React from "react";
 import Box from "./Box";
 import "../style/HomeCard.css";
-import Flash from "react-reveal/Flash";
 
 class HomeCard extends React.Component {
   render() {
@@ -11,10 +10,7 @@ class HomeCard extends React.Component {
           <div>
             <span className="firstSpan">Hello, I'm</span>
             <span className="secondSpan">
-              <Flash>
-                <em className="name">Jonathan Rocha</em>
-              </Flash>
-              ,
+              <em className="name">Jonathan Rocha</em>,
             </span>
           </div>
           <span className="thirdSpan">I'm a Software Development Student</span>
