@@ -1,0 +1,55 @@
+@keyframes cssAnimOpacity {
+
+  20% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.projects_header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.backIcon {
+  width: 0.7em;
+  z-index: 2;
+}
+
+.projectsCard_title {
+  padding: 0 10px;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  opacity: 0;
+  animation: cssAnimOpacity 1s 0.1s forwards;
+}
+
+hr {
+  opacity: 0;
+  animation: cssAnimOpacity 1s 0.5s forwards;
+  margin-bottom: 4vh;
+}
+
+.projects_grid {
+  margin-left: 8%;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+}
+
+.fadein {
+  animation: cssAnimOpacity 1s 0.9s forwards;
+}

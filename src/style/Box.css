@@ -6,4 +6,5 @@
   padding: 2% 1%;
   border-radius: 10px;
   overflow-y: auto;
+  min-width: 30vw;
 }

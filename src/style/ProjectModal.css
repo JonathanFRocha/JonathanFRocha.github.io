@@ -1,0 +1,26 @@
+.projectBox {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.project_pre_image {
+  width: 10em;
+  border-radius: 5px;
+}
+
+.project_pre_title {
+  text-align: center;
+  font-size: 1em;
+  margin: 1em;
+  font-family: Raleway, sans-serif;
+}
+
+.projectBox:hover {
+  transform: scale(1.1);
+}
+
