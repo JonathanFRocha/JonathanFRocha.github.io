@@ -1,9 +1,4 @@
 .projectBox {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
   opacity: 0;
   transition: 0.3s;
 }

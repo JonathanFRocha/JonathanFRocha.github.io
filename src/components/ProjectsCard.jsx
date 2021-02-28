@@ -34,6 +34,7 @@ const ProjectsCard = () => {
           className={count >= 0 ? className : ""}
           title={project1.title}
           description={project1.description}
+          link={project1.link}
           projectImg={project1.img}
           alt={project1.alt}
         />
@@ -41,6 +42,7 @@ const ProjectsCard = () => {
           className={count >= 1 ? className : ""}
           title={project1.title}
           description={project1.description}
+          link={project1.link}
           projectImg={project1.img}
           alt={project1.alt}
         />
@@ -48,6 +50,7 @@ const ProjectsCard = () => {
           className={count >= 2 ? className : ""}
           title={project1.title}
           description={project1.description}
+          link={project1.link}
           projectImg={project1.img}
           alt={project1.alt}
         />
@@ -55,6 +58,7 @@ const ProjectsCard = () => {
           className={count >= 3 ? className : ""}
           title={project1.title}
           description={project1.description}
+          link={project1.link}
           projectImg={project1.img}
           alt={project1.alt}
         />

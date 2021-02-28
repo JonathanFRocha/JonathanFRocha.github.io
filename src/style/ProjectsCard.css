@@ -44,8 +44,9 @@ hr {
 }
 
 .projects_grid {
-  margin-left: 8%;
+  margin-left: 10%;
   display: flex;
+  justify-content: flex-start;
   flex-flow: wrap;
   flex-direction: row;
 }
