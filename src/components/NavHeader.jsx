@@ -42,7 +42,7 @@ class Box extends React.Component {
             <a
               onMouseEnter={() => this.setState({ showElement: "show" })}
               onMouseLeave={() => this.setState({ showElement: "hide" })}
-              href="https://www.google.com.br/"
+              href={resumePt}
             >
               <span id="ptResume" className={`element-${this.state.showElement}`}>
                 pt-br

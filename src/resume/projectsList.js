@@ -6,5 +6,5 @@ export const project1 = {
   img: project1Img,
   alt: "Lessons Learned project Image, click to know more about.",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia temporibus exercitationem eum, cum eaque quae veritatis maxime porro, mollitia dolore quibusdam error distinctio consequuntur tenetur commodi iusto libero! Incidunt, inventore?",
+    "I developed this website that contains a lot of information about what i learned at Trybe over the past three chapters. my website has positioned and stylized elements and in addition, it contains appropriate semantics so that it is accessible and better ranked by search engines.",
 };
