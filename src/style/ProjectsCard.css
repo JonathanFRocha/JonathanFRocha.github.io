@@ -49,3 +49,14 @@ hr {
 .fadein {
   animation: cssAnimOpacity 1s 0.9s forwards;
 }
+
+@media ( max-width : 570px ) {
+
+  .projects_grid {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    flex-direction: row;
+  }
+}

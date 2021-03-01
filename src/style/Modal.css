@@ -99,3 +99,49 @@
 .modal_button_seeCode:hover {
   border: 1px solid darkviolet;
 }
+
+@media ( max-width : 1400px ) {
+
+  .inner_modal_close {
+    width: 2%;
+  }
+}
+
+@media ( max-width : 800px ) {
+
+  .inner_modal_close {
+    width: 20px;
+  }
+
+}
+
+@media ( max-width : 660px ) {
+
+  .inner_modal_image {
+    display: none;
+  }
+
+  .modal_text_title:after {
+    left: 5%;
+    width: 90%;
+  }
+
+}
+
+@media ( max-width : 440px ) {
+
+  .inner_modal_close {
+    width: 6%;
+    top: 4%;
+    right: 3%;
+  }
+
+  .modal_text_title {
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+
+  .modal_text_container p {
+    font-size: 0.95em;
+  }
+}

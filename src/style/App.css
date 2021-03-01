@@ -47,3 +47,26 @@ main {
   height: 94vh;
 }
 
+@media ( max-width : 1400px ) {
+
+  body {
+    height: 92vh;
+  }
+}
+
+
+@media ( max-width : 600px ) {
+
+  body {
+    height: 90vh;
+  }
+}
+
+@media ( max-width : 440px ) {
+
+  body {
+    height: 91vh;
+  }
+
+}
+
