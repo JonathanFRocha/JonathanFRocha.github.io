@@ -63,3 +63,57 @@
   opacity: 0;
   animation: cssAnimOpacity 1s 2s forwards;
 }
+
+
+@media ( max-width : 1200px ) {
+
+  .about_title {
+    left: 39%;
+  }
+
+}
+
+@media ( max-width : 800px ) {
+
+  .about_title {
+    left: 39%;
+    font-size: 1.5em;
+  }
+
+}
+
+@media ( max-width : 600px ) {
+
+  .backIcon {
+    width: 0.8;
+  }
+
+  .about_title {
+    left: 39%;
+  }
+
+  .about_paragraph {
+    margin-top: 50px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+}
+
+@media ( max-width : 440px ) {
+
+  .backIcon {
+    width: 0.8;
+  }
+
+  .about_title {
+    left: 30%;
+  }
+
+  .about_paragraph {
+    margin-top: 50px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+}
