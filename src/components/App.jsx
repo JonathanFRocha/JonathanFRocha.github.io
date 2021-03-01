@@ -14,15 +14,9 @@ class App extends React.Component {
         <NavHeader />
         <main>
           <Switch>
-            <Route exact path="/">
-              <HomeCard />
-            </Route>
-            <Route path="/aboutme">
-              <AboutMeCard />
-            </Route>
-            <Route path="/projects">
-              <ProjectsCard />
-            </Route>
+            <Route exact path="/" component={HomeCard} />
+            <Route path="/aboutme" component={AboutMeCard} />
+            <Route exact path="/projects" component={ProjectsCard} />
           </Switch>
         </main>
       </Router>
