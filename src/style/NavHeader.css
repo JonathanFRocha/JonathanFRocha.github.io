@@ -122,11 +122,11 @@ header {
 @media ( max-width : 1200px ) {
 
   .head_logo_contact img {
-    width: 50px;
+    width: 3px;
   }
 
   #github_logo {
-    width: 85px;
+    width: 70px;
     padding-left: 0;
     margin-left: 0;
   }
