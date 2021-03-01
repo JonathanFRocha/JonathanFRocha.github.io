@@ -1,6 +1,7 @@
 .projectBox {
   opacity: 0;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .project_pre_image {

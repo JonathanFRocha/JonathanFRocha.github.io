@@ -7,9 +7,9 @@ const Modal = ({ projectImg, altImg, title, link, description, children }) => {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
-    console.log(showModal);
     setShowModal(!showModal);
   };
+
   return (
     <React.Fragment>
       <article className={`backgroundModal modal__${showModal ? open : ""}`}>

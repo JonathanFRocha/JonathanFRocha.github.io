@@ -1,5 +1,5 @@
 header {
-  background-image: url('../images/blues.png');
+  background-image: url('../images/blues.jpg');
   background-size: contain;
   background-repeat: repeat;
 }
@@ -29,9 +29,33 @@ header {
   vertical-align: middle;
 }
 
+.head_text_contact a {
+  text-decoration: none;
+}
+
 .head_text_contact li {
   margin-left: 7%;
   font-size: 1.7em;
+}
+
+#ptResume {
+  margin-left: 0.5em;
+  font-size: 1em;
+  color: white;
+  vertical-align: top;
+  position: relative;
+  padding: 2px;
+}
+
+
+.element-hide {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.element-show {
+  opacity: 1;
+  transition: opacity 0.4s;
 }
 
 .head_logo_contact {
@@ -86,4 +110,156 @@ header {
 
 #github_logo {
   width: 60px;
+}
+
+@media ( max-width : 1400px ) {
+
+  .header {
+    height: 8vh;
+  }
+}
+
+@media ( max-width : 1200px ) {
+
+  .head_logo_contact img {
+    width: 50px;
+  }
+
+  #github_logo {
+    width: 85px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .header {
+    height: 7vh;
+  }
+
+  .head_text_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .head_text_contact li {
+    text-align: center;
+    margin-left: 4%;
+    font-size: 1.7em;
+  }
+
+  #ptResume {
+    margin-left: 0.2em;
+    font-size: 0.8em;
+  }
+}
+
+
+@media ( max-width : 780px ) {
+
+  .header {
+    height: 8vh;
+  }
+
+  .head_text_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .head_text_contact li {
+    font-size: 1.4em;
+    margin-left: 8%;
+  }
+
+  .head_logo_contact img {
+    width: 35px;
+    margin: 0 1vw;
+  }
+
+  #github_logo {
+    width: 70px;
+  }
+
+  #ptResume {
+    margin-left: 0.2em;
+    font-size: 0.75em;
+  }
+}
+
+@media ( max-width : 600px ) {
+
+  .header {
+    height: 10vh;
+  }
+
+  .head_text_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .head_text_contact li {
+    margin-left: 1%;
+    font-size: 1em;
+    padding: 2%;
+  }
+
+  .head_logo_contact img {
+    width: 30px;
+  }
+
+
+  #ptResume {
+    margin-left: 0.5em;
+    font-size: 0.7em;
+  }
+
+}
+
+@media ( max-width : 440px ) {
+
+  .header {
+    height: 9vh;
+  }
+
+  .head_text_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .head_text_contact li {
+    margin-left: 1%;
+    font-size: 1em;
+    padding: 2%;
+  }
+
+  .head_logo_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 26px;
+  }
+
+  .head_logo_contact li {
+    margin: 2px 5px 2px 0;
+    padding: 0;
+  }
+
+  .head_logo_contact img {
+    width: 30px;
+  }
+
+  #github_logo {
+    width: 50px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+
+  #ptResume {
+    margin-left: 0.5em;
+    font-size: 0.7em;
+  }
+
 }

@@ -9,6 +9,11 @@ import resumePt from "../resume/resumePt.pdf";
 import "../style/NavHeader.css";
 
 class Box extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { showElement: "hide" };
+  }
+
   render() {
     return (
       <header className="header">
@@ -25,11 +30,24 @@ class Box extends React.Component {
               </Link>
             </li>
 
-            <li className="head_btn">
+            <li
+              className="head_btn"
+              onMouseEnter={() => this.setState({ showElement: "show" })}
+              onMouseLeave={() => this.setState({ showElement: "hide" })}
+            >
               <a className="head_lnk" href={resumePt}>
                 Resume
               </a>
             </li>
+            <a
+              onMouseEnter={() => this.setState({ showElement: "show" })}
+              onMouseLeave={() => this.setState({ showElement: "hide" })}
+              href="https://www.google.com.br/"
+            >
+              <span id="ptResume" className={`element-${this.state.showElement}`}>
+                pt-br
+              </span>
+            </a>
           </ul>
         </nav>
         <nav>
