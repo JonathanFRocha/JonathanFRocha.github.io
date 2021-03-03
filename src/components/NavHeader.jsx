@@ -39,7 +39,9 @@ class Box extends React.Component {
                 Resume
               </a>
             </li>
-            <a target="_blank" rel="noreferrer"
+            <a
+              target="_blank"
+              rel="noreferrer"
               onMouseEnter={() => this.setState({ showElement: "show" })}
               onMouseLeave={() => this.setState({ showElement: "hide" })}
               href={resumePt}
@@ -54,22 +56,27 @@ class Box extends React.Component {
           <ul className="head_logo_contact">
             <li>
               <a target="_blank" rel="noreferrer" href="https://twitter.com/Jonathanferocha">
-                
                 <img src={twitterLogo} alt="Twitter Logo, link to my perfil" />
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jonathan-ferreira-rocha/">
-                <img
-                  className="linkedin_logo"
-                  src={linkedinLogo}
-                  alt="Linkedin Logo, link to my perfil"
-                />
+              <a
+                className="head_logo_linkedin"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/jonathan-ferreira-rocha/"
+              >
+                <img src={linkedinLogo} alt="Linkedin Logo, link to my perfil" />
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://github.com/JonathanFRocha/">
-                <img id="github_logo" src={githubLogo} alt="Github logo, link to my perfil" />
+              <a
+                className="head_logo_github"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/JonathanFRocha/"
+              >
+                <img src={githubLogo} alt="Github logo, link to my perfil" />
               </a>
             </li>
             <li>

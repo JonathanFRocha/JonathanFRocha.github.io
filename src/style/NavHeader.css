@@ -62,8 +62,29 @@ header {
   justify-content: flex-end;
 }
 
-.head_logo_contact img {
-  width: 37px;
+.head_logo_contact a {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.head_logo_linkedin {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.head_logo_github {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.head_logo_contact a:hover {
+  transform: translateY(1vh);
+  border-radius: 50%;
 }
 
 .head_logo_contact li {
@@ -103,10 +124,6 @@ header {
   transform: scaleX(1);
 }
 
-.linkedin_logo {
-  background-color: white;
-  border-radius: 16%;
-}
 
 @media ( max-width : 1400px ) {
 
@@ -117,14 +134,8 @@ header {
 
 @media ( max-width : 1200px ) {
 
-  .head_logo_contact img {
+  .head_logo_contact a {
     width: 35px;
-  }
-
-  #github_logo {
-    width: 70px;
-    padding-left: 0;
-    margin-left: 0;
   }
 
   .header {
@@ -167,13 +178,8 @@ header {
     margin-left: 8%;
   }
 
-  .head_logo_contact img {
+  .head_logo_contact a {
     width: 35px;
-    margin: 0 1vw;
-  }
-
-  #github_logo {
-    width: 70px;
   }
 
   #ptResume {
@@ -200,7 +206,13 @@ header {
     padding: 2%;
   }
 
-  .head_logo_contact img {
+
+  .head_logo_contact li {
+    margin: 2px 5px 2px 0;
+    padding: 0;
+  }
+
+  .head_logo_contact a {
     width: 30px;
   }
 
@@ -237,27 +249,17 @@ header {
     margin-left: 26px;
   }
 
-  .head_logo_contact li {
-    margin: 2px 5px 2px 0;
-    padding: 0;
-  }
-
-  .head_logo_contact img {
-    width: 30px;
-  }
-
-  #github_logo {
-    width: 50px;
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-
   #ptResume {
     margin-left: 0.5em;
     font-size: 0.7em;
   }
+}
 
+@media ( max-width : 405px ) {
+
+  .head_logo_contact a {
+    width: 23px;
+  }
 }
 
 @media ( max-height : 700px ) {
