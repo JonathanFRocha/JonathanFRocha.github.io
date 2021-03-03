@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import NavHeader from "./NavHeader";
 import HomeCard from "./HomeCard";
-import AboutMeCard from "./AbouMeCard";
+import AboutMeCard from "./AboutMeCard";
 import ProjectsCard from "./ProjectsCard";
 import "../style/App.css";
 

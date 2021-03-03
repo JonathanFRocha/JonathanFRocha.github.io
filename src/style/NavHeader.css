@@ -263,3 +263,10 @@ header {
   }
 
 }
+
+@media ( max-height : 700px ) {
+
+  .header {
+    height: 12vh;
+  }
+}

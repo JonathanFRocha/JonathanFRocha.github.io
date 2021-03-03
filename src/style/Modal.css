@@ -57,8 +57,12 @@
   line-height: 1.4em;
 }
 
+.modal_button_link , .modal_text_title {
+  font-family: Playfair Display, serif;
+}
+
 .modal_text_title {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-bottom: 30px;
   display: inline-block;
   position: relative;
@@ -77,37 +81,109 @@
 .button_container {
   padding-top: 5%;
   width: 100%;
-  height: 100%;
   text-align: center;
 }
 
-.modal_button_seeCode {
-  padding: 10px;
-  text-align: center;
-  vertical-align: center;
-  font-size: 1.4em;
+.modal_button_link {
+  background: inherit;
   border: none;
-  color: white;
-  text-decoration: none;
-  background: none;
-  transition: 0.4s;
-  border-radius: 20px;
+  position: relative;
+  margin: 2em 1em;
+  padding: 1.1em 2.2em;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
   cursor: pointer;
+  outline: none;
+  user-select: none;
 }
 
-
-.modal_button_seeCode:hover {
-  border: 1px solid darkviolet;
+.modal_button_link:before , .modal_button_link:after {
+  content: '';
+  position: absolute;
+  transition: inherit;
+  z-index: -1;
+  box-sizing: border-box;
 }
+
+.modal_button_link:hover {
+  transition-delay: 0.5s;
+  color: rgba(32, 44, 66, 255);
+  z-index: 1;
+}
+
+.modal_button_link:hover:before {
+  transition-delay: 0s;
+}
+
+.modal_button_link:hover:after {
+  background: whitesmoke;
+  transition-delay: 0.35s;
+}
+
+.left_anim:before , .left_anim:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+}
+
+.left_anim:before {
+  right: 0;
+  border: 1px solid whitesmoke;
+  border-left: 0;
+  border-right: 0;
+}
+
+.left_anim:after {
+  left: 0;
+}
+
+.left_anim:hover:before , .left_anim:hover:after {
+  width: 100%;
+}
+
+.right_anim:before , .right_anim:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+}
+
+.right_anim:before {
+  left: 0;
+  border: 1px solid whitesmoke;
+  border-left: 0;
+  border-right: 0;
+}
+
+.right_anim:after {
+  right: 0;
+}
+
+.right_anim:hover:before , .right_anim:hover:after {
+  width: 100%;
+}
+
 
 @media ( max-width : 1400px ) {
 
   .inner_modal_close {
     width: 2%;
   }
+
+  .modal_button_link {
+    padding: 0.55em 1.1em;
+    font-size: 1em;
+    letter-spacing: 0.2rem;
+  }
 }
 
 @media ( max-width : 800px ) {
+
+  .inner_modal_image {
+    display: none;
+  }
 
   .inner_modal_close {
     width: 20px;
@@ -117,10 +193,6 @@
 
 @media ( max-width : 660px ) {
 
-  .inner_modal_image {
-    display: none;
-  }
-
   .modal_text_title:after {
     left: 5%;
     width: 90%;
@@ -128,12 +200,18 @@
 
 }
 
-@media ( max-width : 440px ) {
+@media ( max-width : 540px ) {
 
   .inner_modal_close {
     width: 6%;
     top: 4%;
     right: 3%;
+  }
+
+  .modal_button_link {
+    padding: 0.275em 0.55em;
+    font-size: 0.8em;
+    letter-spacing: 0.2rem;
   }
 
   .modal_text_title {

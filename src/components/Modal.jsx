@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../style/Modal.css";
 import closeX from "../images/closeX.svg";
 
-const Modal = ({ projectImg, altImg, title, link, description, children }) => {
+const Modal = ({ projectImg, altImg, title, code, link, description, children }) => {
   const open = "open";
   const [showModal, setShowModal] = useState(false);
 
@@ -27,8 +27,11 @@ const Modal = ({ projectImg, altImg, title, link, description, children }) => {
             <h2 className="modal_text_title">{title} Project</h2>
             <p>{description}</p>
             <div className="button_container">
-              <a href={link}>
-                <button className="modal_button_seeCode">See Code</button>
+              <a target="_blank" rel="noreferrer" href={code}>
+                <button className="modal_button_link left_anim">See Code</button>
+              </a>
+              <a target="_blank" rel="noreferrer" href={link}>
+                <button className="modal_button_link right_anim">Visit Site</button>
               </a>
             </div>
           </div>

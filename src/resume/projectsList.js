@@ -1,6 +1,7 @@
 import project1Img from "../images/projectImages/lessonsLearned.jpg";
 export const project1 = {
   title: "Lessons Learned",
+  code: "https://github.com/tryber/sd-010-b-project-lessons-learned/pull/38",
   link: "https://jonathanfrocha.github.io/lessons_learned/",
   img: project1Img,
   alt: "Lessons Learned project Image, click to know more about.",

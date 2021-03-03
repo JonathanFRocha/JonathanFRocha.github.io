@@ -3,11 +3,12 @@ import React from "react";
 import Modal from "./Modal";
 import "../style/ProjectModal.css";
 
-const ProjectModal = ({ projectImg, altImg, title, link, description, className }) => {
+const ProjectModal = ({ projectImg, altImg, code, title, link, description, className }) => {
   return (
     <Modal
       title={title}
       description={description}
+      code={code}
       link={link}
       projectImg={projectImg}
       altImg={altImg}
