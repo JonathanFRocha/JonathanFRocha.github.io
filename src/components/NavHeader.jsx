@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import twitterLogo from "../images/blue.svg";
 import gmailLogo from "../images/gmail.svg";
-import linkedinLogo from "../images/linkedin.png";
-import githubLogo from "../images/github.png";
+import linkedinLogo from "../images/linkedin.svg";
+import githubLogo from "../images/github.svg";
 import resumePt from "../resume/resumePt.pdf";
 import "../style/NavHeader.css";
 
@@ -35,11 +35,11 @@ class Box extends React.Component {
               onMouseEnter={() => this.setState({ showElement: "show" })}
               onMouseLeave={() => this.setState({ showElement: "hide" })}
             >
-              <a className="head_lnk" href={resumePt}>
+              <a className="head_lnk" target="_blank" rel="noreferrer" href={resumePt}>
                 Resume
               </a>
             </li>
-            <a
+            <a target="_blank" rel="noreferrer"
               onMouseEnter={() => this.setState({ showElement: "show" })}
               onMouseLeave={() => this.setState({ showElement: "hide" })}
               href={resumePt}
@@ -53,12 +53,13 @@ class Box extends React.Component {
         <nav>
           <ul className="head_logo_contact">
             <li>
-              <a href="https://twitter.com/Jonathanferocha">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/Jonathanferocha">
+                
                 <img src={twitterLogo} alt="Twitter Logo, link to my perfil" />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/jonathan-ferreira-rocha/">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jonathan-ferreira-rocha/">
                 <img
                   className="linkedin_logo"
                   src={linkedinLogo}
@@ -67,7 +68,7 @@ class Box extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://github.com/JonathanFRocha/">
+              <a target="_blank" rel="noreferrer" href="https://github.com/JonathanFRocha/">
                 <img id="github_logo" src={githubLogo} alt="Github logo, link to my perfil" />
               </a>
             </li>
