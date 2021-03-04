@@ -7,9 +7,9 @@ import AboutMeCard from "./AboutMeCard";
 import ProjectsCard from "./ProjectsCard";
 import "../style/App.css";
 
-class App extends React.Component {
-  render() {
-    return (
+const App = () => {
+
+    return ( 
       <Router>
         <NavHeader />
         <main>
@@ -21,6 +21,6 @@ class App extends React.Component {
         </main>
       </Router>
     );
-  }
+  
 }
 export default App;
