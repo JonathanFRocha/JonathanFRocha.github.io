@@ -55,7 +55,12 @@ class Box extends React.Component {
         <nav>
           <ul className="head_logo_contact">
             <li>
-              <a target="_blank" rel="noreferrer" href="https://twitter.com/Jonathanferocha">
+              <a
+                className="head_logo_twitter"
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/Jonathanferocha"
+              >
                 <img src={twitterLogo} alt="Twitter Logo, link to my perfil" />
               </a>
             </li>
@@ -80,7 +85,7 @@ class Box extends React.Component {
               </a>
             </li>
             <li>
-              <a href="mailto: jonathanferreira.contato@gmail.com">
+              <a className="head_logo_gmail" href="mailto: jonathanferreira.contato@gmail.com">
                 <img src={gmailLogo} alt="Gmail logo, link to send a mail to me" />
               </a>
             </li>
