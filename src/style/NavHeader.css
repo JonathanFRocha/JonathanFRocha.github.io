@@ -267,9 +267,17 @@
   }
 }
 
+@media ( max-height : 840px ) {
+
+  .header {
+    height: 10vh;
+  }
+}
+
 @media ( max-height : 700px ) {
 
   .header {
     height: 12vh;
   }
 }
+
