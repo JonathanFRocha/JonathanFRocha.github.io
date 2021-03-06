@@ -56,7 +56,7 @@ class Box extends React.Component {
           <ul className="head_logo_contact">
             <li>
               <a
-                className="head_logo_twitter"
+                className="head_logo_twittern"
                 target="_blank"
                 rel="noreferrer"
                 href="https://twitter.com/Jonathanferocha"
