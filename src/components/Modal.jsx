@@ -1,21 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "../style/Modal.css";
 import closeX from "../images/closeX.svg";
 
-const Modal = ({ projectImg, altImg, title, code, link, description, children }) => {
-  const open = "open";
-  const [showModal, setShowModal] = useState(false);
-
-  const toggleModal = () => {
-    setShowModal(!showModal);
-  };
-
+const Modal = ({ showModal, projectImg, altImg, title, code, link, description, toggleModal }) => {
   return (
     <React.Fragment>
-      <article className={`backgroundModal modal__${showModal ? open : ""}`}>
+      <article className={`backgroundModal modal__${showModal ? "open" : ""}`}>
         <div className="inner_modal_box">
           <img
-            onClick={() => toggleModal()}
+            onClick={toggleModal}
             className="inner_modal_close"
             src={closeX}
             alt="Close Modal"
@@ -37,9 +30,6 @@ const Modal = ({ projectImg, altImg, title, code, link, description, children })
           </div>
         </div>
       </article>
-      <div className="modal_box" onClick={() => toggleModal()}>
-        {children}
-      </div>
     </React.Fragment>
   );
 };
