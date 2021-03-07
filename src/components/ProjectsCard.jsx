@@ -5,7 +5,7 @@ import ProjectModal from "./ProjectModal";
 import Box from "./Box";
 import backIcon from "../images/back.png";
 import "../style/ProjectsCard.css";
-import { project1 } from "../resume/projectsList";
+import { projects } from "../resume/projectsList";
 
 const ProjectsCard = () => {
   const className = "fadein";
@@ -20,6 +20,20 @@ const ProjectsCard = () => {
     return () => clearTimeout(timeout);
   }, [count]);
 
+  const renderedProjects = projects.map((project, index) => {
+    return (
+      <ProjectModal
+        className={count >= index ? className : ""}
+        title={project.title}
+        description={project.description}
+        code={project.code}
+        link={project.link}
+        projectImg={project.img}
+        alt={project.alt}
+      />
+    );
+  });
+
   return (
     <Box>
       <div className="projects_header_container">
@@ -29,44 +43,7 @@ const ProjectsCard = () => {
         <h2 className="projectsCard_title">My Projects</h2>
       </div>
       <hr />
-      <div className="projects_grid">
-        <ProjectModal
-          className={count >= 0 ? className : ""}
-          title={project1.title}
-          description={project1.description}
-          code={project1.code}
-          link={project1.link}
-          projectImg={project1.img}
-          alt={project1.alt}
-        />
-        <ProjectModal
-          className={count >= 1 ? className : ""}
-          title={project1.title}
-          description={project1.description}
-          code={project1.code}
-          link={project1.link}
-          projectImg={project1.img}
-          alt={project1.alt}
-        />
-        <ProjectModal
-          className={count >= 2 ? className : ""}
-          title={project1.title}
-          description={project1.description}
-          code={project1.code}
-          link={project1.link}
-          projectImg={project1.img}
-          alt={project1.alt}
-        />
-        <ProjectModal
-          className={count >= 3 ? className : ""}
-          title={project1.title}
-          description={project1.description}
-          code={project1.code}
-          link={project1.link}
-          projectImg={project1.img}
-          alt={project1.alt}
-        />
-      </div>
+      <div className="projects_grid">{renderedProjects}</div>
     </Box>
   );
 };
