@@ -7,7 +7,9 @@
 
 .project_pre_image {
   width: 10em;
+  height: 10em;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .project_pre_title {
