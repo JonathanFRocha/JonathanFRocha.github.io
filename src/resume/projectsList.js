@@ -1,5 +1,6 @@
 import project1Img from "../images/projectImages/lessonsLearned.jpg";
 import project2Img from "../images/projectImages/project2.jpg";
+import project3Img from "../images/projectImages/project3.jpg"
 export const projects = [
   {
     title: "Lessons Learned",
@@ -20,21 +21,21 @@ export const projects = [
       "In this project, i implemented a pixel art editor. A palette of random colors and a frame made up of pixels were made available, with these two features people can paint whatever they want on the board! A button was also made available to enlarge the frame and another to clean it completely.",
   },
   {
-    title: "Pixel Art",
-    code: "https://github.com/tryber/sd-010-b-project-pixels-art/pull/107",
-    link: "https://jonathanfrocha.github.io/pixel_art/",
-    img: project2Img,
-    alt: "Pixel Art project image, click to know more about.",
+    title: "To do List",
+    code: "https://github.com/tryber/sd-010-b-project-todo-list/pull/22",
+    link: "https://jonathanfrocha.github.io/todo_list/",
+    img: project3Img,
+    alt: "To do List project image, click to know more about.",
     description:
-      "In this project, i implemented a pixel art editor. A palette of random colors and a frame made up of pixels were made available, with these two features people can paint whatever they want on the board! A button was also made available to enlarge the frame and another to clean it completely.",
+      "In this project i implemented a To do List. In it, the user can fill in their tasks, double-click to mark it has been completed, clear the entire list, clear only the selected task or clear all completed tasks. In addition, the user can move the task up or down in the list and it is possible to save the list.",
   },
   {
-    title: "Pixel Art",
-    code: "https://github.com/tryber/sd-010-b-project-pixels-art/pull/107",
-    link: "https://jonathanfrocha.github.io/pixel_art/",
-    img: project2Img,
-    alt: "Pixel Art project image, click to know more about.",
+    title: "To do List",
+    code: "https://github.com/tryber/sd-010-b-project-todo-list/pull/22",
+    link: "https://jonathanfrocha.github.io/todo_list/",
+    img: project3Img,
+    alt: "To do List project image, click to know more about.",
     description:
-      "In this project, i implemented a pixel art editor. A palette of random colors and a frame made up of pixels were made available, with these two features people can paint whatever they want on the board! A button was also made available to enlarge the frame and another to clean it completely.",
+      "In this project i implemented a To do List. In it, the user can fill in their tasks, double-click to mark it has been completed, clear the entire list, clear only the selected task or clear all completed tasks. In addition, the user can move the task up or down in the list and it is possible to save the list.",
   },
 ];
