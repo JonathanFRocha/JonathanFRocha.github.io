@@ -6,6 +6,7 @@ import gmailLogo from "../images/gmail-icon.svg";
 import linkedinLogo from "../images/linkedin.svg";
 import githubLogo from "../images/github.svg";
 import resumePt from "../resume/resumePt.pdf";
+import resumeEn from "../resume/resumeEn.pdf";
 import "../style/NavHeader.css";
 
 class Box extends React.Component {
@@ -35,7 +36,7 @@ class Box extends React.Component {
               onMouseEnter={() => this.setState({ showElement: "show" })}
               onMouseLeave={() => this.setState({ showElement: "hide" })}
             >
-              <a className="head_lnk" target="_blank" rel="noreferrer" href={resumePt}>
+              <a className="head_lnk" target="_blank" rel="noreferrer" href={resumeEn}>
                 Resume
               </a>
             </li>
