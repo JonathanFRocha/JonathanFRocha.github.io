@@ -1,6 +1,8 @@
 import project1Img from "../images/projectImages/lessonsLearned.jpg";
 import project2Img from "../images/projectImages/project2.jpg";
-import project3Img from "../images/projectImages/project3.jpg"
+import project3Img from "../images/projectImages/project3.jpg";
+import project4Img from "../images/projectImages/project4.jpg";
+
 export const projects = [
   {
     title: "Lessons Learned",
@@ -30,12 +32,12 @@ export const projects = [
       "In this project i implemented a To do List. In it, the user can fill in their tasks, double-click to mark it has been completed, clear the entire list, clear only the selected task or clear all completed tasks. In addition, the user can move the task up or down in the list and it is possible to save the list.",
   },
   {
-    title: "To do List",
-    code: "https://github.com/tryber/sd-010-b-project-todo-list/pull/22",
-    link: "https://jonathanfrocha.github.io/todo_list/",
-    img: project3Img,
-    alt: "To do List project image, click to know more about.",
+    title: "Facebook LoginPage",
+    code: "https://github.com/tryber/sd-010-b-project-facebook-signup/pull/37",
+    link: "https://jonathanfrocha.github.io/facebookLoginPage/",
+    img: project4Img,
+    alt: "Facebook project image, click to know more about.",
     description:
-      "In this project i implemented a To do List. In it, the user can fill in their tasks, double-click to mark it has been completed, clear the entire list, clear only the selected task or clear all completed tasks. In addition, the user can move the task up or down in the list and it is possible to save the list.",
+      "I developed a facebook login page in this project, this time i worked together with a colleague from Trybe, we used Bulma most of the css, used some flexbox to align contents and we created forms and their input validations.",
   },
 ];
