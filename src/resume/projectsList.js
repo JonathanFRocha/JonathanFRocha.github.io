@@ -2,7 +2,7 @@ import project1Img from "../images/projectImages/lessonsLearned.jpg";
 import project2Img from "../images/projectImages/project2.jpg";
 import project3Img from "../images/projectImages/project3.jpg";
 import project4Img from "../images/projectImages/project4.jpg";
-import project5Img from "../images/projectImages/project4.jpg";
+import project5Img from "../images/projectImages/project5.jpg";
 
 export const projects = [
   {
