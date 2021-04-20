@@ -2,6 +2,7 @@ import project1Img from "../images/projectImages/lessonsLearned.jpg";
 import project2Img from "../images/projectImages/project2.jpg";
 import project3Img from "../images/projectImages/project3.jpg";
 import project4Img from "../images/projectImages/project4.jpg";
+import project5Img from "../images/projectImages/project4.jpg";
 
 export const projects = [
   {
@@ -39,5 +40,14 @@ export const projects = [
     alt: "Facebook project image, click to know more about.",
     description:
       "I developed a facebook login page in this project, this time i worked together with a colleague from Trybe, we used Bulma most of the css, used some flexbox to align contents and we created forms and their input validations.",
+  },
+  {
+    title: "Shopping Cart",
+    code: "https://github.com/tryber/sd-010-b-project-shopping-cart/pull/79",
+    link: "https://jonathanfrocha.github.io/ShoppingCart/",
+    img: project5Img,
+    alt: "Shopping Cart project image, click to know more about.",
+    description:
+      "I developed a shopping cart in this project, i used mercadoLibre api to make the requisitions and pick up the products, the page also saves your shopping cart and even gives a message when you complete the purchase :)",
   },
 ];
